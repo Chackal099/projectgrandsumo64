@@ -1,0 +1,214 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="580" viewBox="0 0 1180 580">
+<style>text{font:13px monospace;fill:#172033}.title{font:bold 20px sans-serif}.small{font:11px sans-serif}rect:hover{stroke:#111;stroke-width:2}</style>
+<rect width="1180" height="580" fill="#f8fafc"/>
+<text x="24" y="34" class="title">64 Oozumou (Japan) — mapa estático</text>
+<text x="24" y="57" class="small">Azul: prefixos CPU candidatos; roxo: RSP/dados residentes; laranja: DMA; cinza: BSS. Pontas direitas exclusivas.</text>
+<text x="24" y="76" class="small">Sobreposição indica reutilização de RAM, sem demonstrar a sequência de execução. Passe o mouse nos blocos para ver os intervalos.</text>
+<text x="24" y="108" class="">ROM [0, 16 MiB)</text>
+<text x="250.0" y="108" class="small">0M</text>
+<text x="360.0" y="108" class="small">2M</text>
+<text x="470.0" y="108" class="small">4M</text>
+<text x="580.0" y="108" class="small">6M</text>
+<text x="690.0" y="108" class="small">8M</text>
+<text x="800.0" y="108" class="small">10M</text>
+<text x="910.0" y="108" class="small">12M</text>
+<text x="1020.0" y="108" class="small">14M</text>
+<text x="1130.0" y="108" class="small">16M</text>
+<text x="24" y="137" class="">CPU: por offsets na ROM</text>
+<rect x="250.21" y="123" width="7.62" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>resident: ROM 0x1000..0x24720; VRAM 0x80000400; high</title></rect>
+<rect x="374.28" y="123" width="1.67" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_2427A0_800B2400: ROM 0x2427a0..0x24a430; VRAM 0x800b2400; medium: static DMA + instruction prefix</title></rect>
+<rect x="628.41" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_6E14F0_800A62E0: ROM 0x6e14f0..0x6e1570; VRAM 0x800a62e0; medium: static DMA + instruction prefix</title></rect>
+<rect x="628.41" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_6E1570_801D18C0: ROM 0x6e1570..0x6e2fa0; VRAM 0x801d18c0; medium: static DMA + instruction prefix</title></rect>
+<rect x="635.87" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_704090_800A62E0: ROM 0x704090..0x704110; VRAM 0x800a62e0; medium: static DMA + instruction prefix</title></rect>
+<rect x="635.87" y="123" width="4.57" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_704110_801D18C0: ROM 0x704110..0x719560; VRAM 0x801d18c0; medium: static DMA + instruction prefix</title></rect>
+<rect x="397.25" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_2AD5F0_800A62E0: ROM 0x2ad5f0..0x2ad670; VRAM 0x800a62e0; medium: static DMA + instruction prefix</title></rect>
+<rect x="387.98" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_2823E0_801D18C0: ROM 0x2823e0..0x284790; VRAM 0x801d18c0; medium: static DMA + instruction prefix</title></rect>
+<rect x="397.25" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_2AD670_801D4400: ROM 0x2ad670..0x2b29c0; VRAM 0x801d4400; medium: static DMA + instruction prefix</title></rect>
+<rect x="403.60" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_2CAED0_800A62E0: ROM 0x2caed0..0x2caf40; VRAM 0x800a62e0; medium: static DMA + instruction prefix</title></rect>
+<rect x="403.60" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_2CAF40_801D4400: ROM 0x2caf40..0x2d0120; VRAM 0x801d4400; medium: static DMA + instruction prefix</title></rect>
+<rect x="426.59" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_335ED0_800A62E0: ROM 0x335ed0..0x335f50; VRAM 0x800a62e0; medium: static DMA + instruction prefix</title></rect>
+<rect x="426.59" y="123" width="2.33" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_335F50_801D4400: ROM 0x335f50..0x340d30; VRAM 0x801d4400; medium: static DMA + instruction prefix</title></rect>
+<rect x="450.29" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_3A4460_800A62E0: ROM 0x3a4460..0x3a44d0; VRAM 0x800a62e0; medium: static DMA + instruction prefix</title></rect>
+<rect x="450.30" y="123" width="4.65" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_3A44D0_801D4400: ROM 0x3a44d0..0x3b9f40; VRAM 0x801d4400; medium: static DMA + instruction prefix</title></rect>
+<rect x="475.62" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_41A290_800A62E0: ROM 0x41a290..0x41a300; VRAM 0x800a62e0; medium: static DMA + instruction prefix</title></rect>
+<rect x="475.63" y="123" width="3.06" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_41A300_801D4400: ROM 0x41a300..0x4286e0; VRAM 0x801d4400; medium: static DMA + instruction prefix</title></rect>
+<rect x="683.63" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_7E25C0_800A62E0: ROM 0x7e25c0..0x7e2640; VRAM 0x800a62e0; medium: static DMA + instruction prefix</title></rect>
+<rect x="683.64" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_7E2640_801D18C0: ROM 0x7e2640..0x7e77b0; VRAM 0x801d18c0; medium: static DMA + instruction prefix</title></rect>
+<rect x="690.11" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_800820_800A62E0: ROM 0x800820..0x8008a0; VRAM 0x800a62e0; medium: static DMA + instruction prefix</title></rect>
+<rect x="690.12" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_8008A0_801D18C0: ROM 0x8008a0..0x802310; VRAM 0x801d18c0; medium: static DMA + instruction prefix</title></rect>
+<rect x="690.51" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_802650_800A62E0: ROM 0x802650..0x8026d0; VRAM 0x800a62e0; medium: static DMA + instruction prefix</title></rect>
+<rect x="690.52" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_8026D0_801D18C0: ROM 0x8026d0..0x803780; VRAM 0x801d18c0; medium: static DMA + instruction prefix</title></rect>
+<rect x="690.81" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_803C50_800A62E0: ROM 0x803c50..0x803cd0; VRAM 0x800a62e0; medium: static DMA + instruction prefix</title></rect>
+<rect x="690.82" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_803CD0_801D18C0: ROM 0x803cd0..0x808840; VRAM 0x801d18c0; medium: static DMA + instruction prefix</title></rect>
+<rect x="693.12" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_80E860_800A62E0: ROM 0x80e860..0x80e8e0; VRAM 0x800a62e0; medium: static DMA + instruction prefix</title></rect>
+<rect x="693.13" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_80E8E0_801D4400: ROM 0x80e8e0..0x80ff10; VRAM 0x801d4400; medium: static DMA + instruction prefix</title></rect>
+<rect x="695.30" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_818A70_800A62E0: ROM 0x818a70..0x818af0; VRAM 0x800a62e0; medium: static DMA + instruction prefix</title></rect>
+<rect x="695.30" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_818AF0_801D18C0: ROM 0x818af0..0x819b70; VRAM 0x801d18c0; medium: static DMA + instruction prefix</title></rect>
+<rect x="695.56" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_819E40_800A62E0: ROM 0x819e40..0x819ec0; VRAM 0x800a62e0; medium: static DMA + instruction prefix</title></rect>
+<rect x="695.57" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_819EC0_801D18C0: ROM 0x819ec0..0x81afb0; VRAM 0x801d18c0; medium: static DMA + instruction prefix</title></rect>
+<rect x="695.91" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_81B830_800A62E0: ROM 0x81b830..0x81b8b0; VRAM 0x800a62e0; medium: static DMA + instruction prefix</title></rect>
+<rect x="695.92" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_81B8B0_801D18C0: ROM 0x81b8b0..0x81c7b0; VRAM 0x801d18c0; medium: static DMA + instruction prefix</title></rect>
+<rect x="696.35" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_81D8F0_800A62E0: ROM 0x81d8f0..0x81d970; VRAM 0x800a62e0; medium: static DMA + instruction prefix</title></rect>
+<rect x="696.36" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_81D970_801D18C0: ROM 0x81d970..0x8205e0; VRAM 0x801d18c0; medium: static DMA + instruction prefix</title></rect>
+<rect x="697.80" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_8244C0_800A62E0: ROM 0x8244c0..0x824540; VRAM 0x800a62e0; medium: static DMA + instruction prefix</title></rect>
+<rect x="697.80" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_824540_801D18C0: ROM 0x824540..0x8248e0; VRAM 0x801d18c0; medium: static DMA + instruction prefix</title></rect>
+<rect x="497.72" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_481060_800A62E0: ROM 0x481060..0x4810f0; VRAM 0x800a62e0; medium: static DMA + instruction prefix</title></rect>
+<rect x="497.73" y="123" width="9.64" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_4810F0_80120000: ROM 0x4810f0..0x4adf20; VRAM 0x80120000; medium: static DMA + instruction prefix</title></rect>
+<rect x="515.89" y="123" width="11.35" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_4D59B0_8022C070: ROM 0x4d59b0..0x50a750; VRAM 0x8022c070; medium: static DMA + instruction prefix</title></rect>
+<rect x="259.52" y="123" width="17.15" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_02C4D0_800A62E0: ROM 0x2c4d0..0x7c1b0; VRAM 0x800a62e0; medium: static DMA + instruction prefix</title></rect>
+<rect x="675.11" y="123" width="2.41" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_7BAAE0_800A62E0: ROM 0x7baae0..0x7c5e10; VRAM 0x800a62e0; medium: static DMA + instruction prefix</title></rect>
+<rect x="677.84" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_7C7650_800A62E0: ROM 0x7c7650..0x7cb0d0; VRAM 0x800a62e0; medium: static DMA + instruction prefix</title></rect>
+<rect x="698.01" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_8254D0_800A62E0: ROM 0x8254d0..0x826300; VRAM 0x800a62e0; medium: static DMA + instruction prefix</title></rect>
+<rect x="699.51" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_82C480_800A62E0: ROM 0x82c480..0x82c500; VRAM 0x800a62e0; medium: static DMA + instruction prefix</title></rect>
+<rect x="699.52" y="123" width="2.38" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_82C500_801D4400: ROM 0x82c500..0x8375e0; VRAM 0x801d4400; medium: static DMA + instruction prefix</title></rect>
+<rect x="709.02" y="123" width="1.50" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_8588C0_800A62E0: ROM 0x8588c0..0x858940; VRAM 0x800a62e0; medium: static DMA + instruction prefix</title></rect>
+<rect x="709.03" y="123" width="2.56" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_858940_801D18C0: ROM 0x858940..0x864810; VRAM 0x801d18c0; medium: static DMA + instruction prefix</title></rect>
+<rect x="703.34" y="123" width="3.85" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>load_83E150_803CB000: ROM 0x83e150..0x850030; VRAM 0x803cb000; medium: static DMA + instruction prefix</title></rect>
+<text x="24" y="163" class="">Outros bytes DMA</text>
+<rect x="259.52" y="149" width="22.04" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x2c4d0..0x92df0 -&gt; 0x800a62e0</title></rect>
+<rect x="281.55" y="149" width="5.56" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x92df0..0xacbe0 -&gt; 0x80160200</title></rect>
+<rect x="287.11" y="149" width="28.05" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0xacbe0..0x12f520 -&gt; 0x8024c000</title></rect>
+<rect x="315.17" y="149" width="21.08" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x12f520..0x191710 -&gt; 0x8034b000</title></rect>
+<rect x="336.25" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x191710..0x197af0 -&gt; 0x8034b000</title></rect>
+<rect x="337.59" y="149" width="1.82" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x197af0..0x1a0270 -&gt; 0x8034b000</title></rect>
+<rect x="339.41" y="149" width="6.91" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x1a0270..0x1c04c0 -&gt; 0x8034b000</title></rect>
+<rect x="369.05" y="149" width="5.23" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x22a210..0x2427a0 -&gt; 0x8034b000</title></rect>
+<rect x="374.28" y="149" width="13.70" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x2427a0..0x2823e0 -&gt; 0x800b2400</title></rect>
+<rect x="387.98" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x2823e0..0x284e10 -&gt; 0x801d18c0</title></rect>
+<rect x="397.25" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x2ad5f0..0x2ad670 -&gt; 0x800a62e0</title></rect>
+<rect x="397.25" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x2ad670..0x2b3ef0 -&gt; 0x801d4400</title></rect>
+<rect x="403.60" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x2caed0..0x2caf40 -&gt; 0x800a62e0</title></rect>
+<rect x="403.60" y="149" width="14.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x2caf40..0x30e710 -&gt; 0x801d4400</title></rect>
+<rect x="426.59" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x335ed0..0x335f50 -&gt; 0x800a62e0</title></rect>
+<rect x="426.59" y="149" width="6.97" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x335f50..0x356650 -&gt; 0x801d4400</title></rect>
+<rect x="450.29" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x3a4460..0x3a44d0 -&gt; 0x800a62e0</title></rect>
+<rect x="450.30" y="149" width="17.94" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x3a44d0..0x3f7ce0 -&gt; 0x801d4400</title></rect>
+<rect x="475.62" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x41a290..0x41a300 -&gt; 0x800a62e0</title></rect>
+<rect x="475.63" y="149" width="11.71" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x41a300..0x450b60 -&gt; 0x801d4400</title></rect>
+<rect x="497.72" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x481060..0x4810f0 -&gt; 0x800a62e0</title></rect>
+<rect x="497.73" y="149" width="18.16" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x4810f0..0x4d59b0 -&gt; 0x80120000</title></rect>
+<rect x="515.89" y="149" width="18.45" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x4d59b0..0x52b7a0 -&gt; 0x8022c070</title></rect>
+<rect x="569.53" y="149" width="20.62" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x5cf4a0..0x62f410 -&gt; 0x8034b000</title></rect>
+<rect x="590.15" y="149" width="24.48" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x62f410..0x6a1320 -&gt; 0x8034b000</title></rect>
+<rect x="614.63" y="149" width="13.77" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x6a1320..0x6e14f0 -&gt; 0x8034b000</title></rect>
+<rect x="628.41" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x6e14f0..0x6e1570 -&gt; 0x800a62e0</title></rect>
+<rect x="628.41" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x6e1570..0x6e3560 -&gt; 0x801d18c0</title></rect>
+<rect x="632.99" y="149" width="2.87" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x6f6a80..0x704090 -&gt; 0x8034b000</title></rect>
+<rect x="635.87" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x704090..0x704110 -&gt; 0x800a62e0</title></rect>
+<rect x="635.87" y="149" width="5.59" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x704110..0x71e1a0 -&gt; 0x801d18c0</title></rect>
+<rect x="666.49" y="149" width="8.61" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x792960..0x7baae0 -&gt; 0x8034b000</title></rect>
+<rect x="675.11" y="149" width="2.73" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x7baae0..0x7c7650 -&gt; 0x800a62e0</title></rect>
+<rect x="677.84" y="149" width="2.22" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x7c7650..0x7d1bb0 -&gt; 0x800a62e0</title></rect>
+<rect x="680.06" y="149" width="3.57" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x7d1bb0..0x7e25c0 -&gt; 0x8034b000</title></rect>
+<rect x="683.63" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x7e25c0..0x7e2640 -&gt; 0x800a62e0</title></rect>
+<rect x="683.64" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x7e2640..0x7e8e50 -&gt; 0x801d18c0</title></rect>
+<rect x="688.28" y="149" width="1.83" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x7f8020..0x800820 -&gt; 0x8034b000</title></rect>
+<rect x="690.11" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x800820..0x8008a0 -&gt; 0x800a62e0</title></rect>
+<rect x="690.12" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x8008a0..0x802650 -&gt; 0x801d18c0</title></rect>
+<rect x="690.51" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x802650..0x8026d0 -&gt; 0x800a62e0</title></rect>
+<rect x="690.52" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x8026d0..0x803a80 -&gt; 0x801d18c0</title></rect>
+<rect x="690.81" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x803c50..0x803cd0 -&gt; 0x800a62e0</title></rect>
+<rect x="690.82" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x803cd0..0x808e30 -&gt; 0x801d18c0</title></rect>
+<rect x="693.12" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x80e860..0x80e8e0 -&gt; 0x800a62e0</title></rect>
+<rect x="693.13" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x80e8e0..0x810290 -&gt; 0x801d4400</title></rect>
+<rect x="695.30" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x818a70..0x818af0 -&gt; 0x800a62e0</title></rect>
+<rect x="695.30" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x818af0..0x819cb0 -&gt; 0x801d18c0</title></rect>
+<rect x="695.56" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x819e40..0x819ec0 -&gt; 0x800a62e0</title></rect>
+<rect x="695.57" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x819ec0..0x81b020 -&gt; 0x801d18c0</title></rect>
+<rect x="695.91" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x81b830..0x81b8b0 -&gt; 0x800a62e0</title></rect>
+<rect x="695.92" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x81b8b0..0x81c8e0 -&gt; 0x801d18c0</title></rect>
+<rect x="696.35" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x81d8f0..0x81d970 -&gt; 0x800a62e0</title></rect>
+<rect x="696.36" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x81d970..0x821490 -&gt; 0x801d18c0</title></rect>
+<rect x="697.80" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x8244c0..0x824540 -&gt; 0x800a62e0</title></rect>
+<rect x="697.80" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x824540..0x8254d0 -&gt; 0x801d18c0</title></rect>
+<rect x="698.01" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x8254d0..0x82c480 -&gt; 0x800a62e0</title></rect>
+<rect x="699.51" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x82c480..0x82c500 -&gt; 0x800a62e0</title></rect>
+<rect x="699.52" y="149" width="3.82" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x82c500..0x83e150 -&gt; 0x801d4400</title></rect>
+<rect x="703.34" y="149" width="4.06" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x83e150..0x850f80 -&gt; 0x803cb000</title></rect>
+<rect x="709.02" y="149" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x8588c0..0x858940 -&gt; 0x800a62e0</title></rect>
+<rect x="709.03" y="149" width="3.09" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x858940..0x866fb0 -&gt; 0x801d18c0</title></rect>
+<text x="24" y="189" class="">RSP + dados residentes</text>
+<rect x="257.83" y="175" width="1.69" height="15" rx="2" fill="#9333ea" fill-opacity="0.65"><title>Mistura de código RSP e dados; limites internos não recuperados</title></rect>
+<text x="24" y="221" class="">KSEG0 RAM [80000000, 80400000)</text>
+<text x="250.0" y="240" class="small">80000000</text>
+<text x="470.0" y="240" class="small">80100000</text>
+<text x="690.0" y="240" class="small">80200000</text>
+<text x="910.0" y="240" class="small">80300000</text>
+<text x="1130.0" y="240" class="small">80400000</text>
+<text x="24" y="265" class="">Residente / BSS</text>
+<rect x="250.21" y="251" width="37.21" height="15" rx="2" fill="#2563eb" fill-opacity="0.65"><title>Imagem residente; VRAM não é memória de vídeo separada</title></rect>
+<rect x="287.43" y="251" width="105.38" height="15" rx="2" fill="#64748b" fill-opacity="0.65"><title>BSS 0x8002b8d0 + 0x7aa10</title></rect>
+<text x="24" y="294" class="">800A62E0: 24 bloco(s)</text>
+<rect x="392.81" y="281" width="88.15" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x2c4d0..0x92df0 -&gt; RAM 0x800a62e0..0x8010cc00</title></rect>
+<rect x="392.81" y="281" width="10.93" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x7baae0..0x7c7650 -&gt; RAM 0x800a62e0..0x800b2e50</title></rect>
+<rect x="392.81" y="281" width="8.88" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x7c7650..0x7d1bb0 -&gt; RAM 0x800a62e0..0x800b0840</title></rect>
+<rect x="392.81" y="281" width="6.00" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x8254d0..0x82c480 -&gt; RAM 0x800a62e0..0x800ad290</title></rect>
+<rect x="392.81" y="281" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x481060..0x4810f0 -&gt; RAM 0x800a62e0..0x800a6370</title></rect>
+<rect x="392.81" y="281" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x2ad5f0..0x2ad670 -&gt; RAM 0x800a62e0..0x800a6360</title></rect>
+<rect x="392.81" y="281" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x335ed0..0x335f50 -&gt; RAM 0x800a62e0..0x800a6360</title></rect>
+<rect x="392.81" y="281" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x6e14f0..0x6e1570 -&gt; RAM 0x800a62e0..0x800a6360</title></rect>
+<rect x="392.81" y="281" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x704090..0x704110 -&gt; RAM 0x800a62e0..0x800a6360</title></rect>
+<rect x="392.81" y="281" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x7e25c0..0x7e2640 -&gt; RAM 0x800a62e0..0x800a6360</title></rect>
+<rect x="392.81" y="281" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x800820..0x8008a0 -&gt; RAM 0x800a62e0..0x800a6360</title></rect>
+<rect x="392.81" y="281" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x802650..0x8026d0 -&gt; RAM 0x800a62e0..0x800a6360</title></rect>
+<rect x="392.81" y="281" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x803c50..0x803cd0 -&gt; RAM 0x800a62e0..0x800a6360</title></rect>
+<rect x="392.81" y="281" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x80e860..0x80e8e0 -&gt; RAM 0x800a62e0..0x800a6360</title></rect>
+<rect x="392.81" y="281" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x818a70..0x818af0 -&gt; RAM 0x800a62e0..0x800a6360</title></rect>
+<rect x="392.81" y="281" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x819e40..0x819ec0 -&gt; RAM 0x800a62e0..0x800a6360</title></rect>
+<rect x="392.81" y="281" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x81b830..0x81b8b0 -&gt; RAM 0x800a62e0..0x800a6360</title></rect>
+<rect x="392.81" y="281" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x81d8f0..0x81d970 -&gt; RAM 0x800a62e0..0x800a6360</title></rect>
+<rect x="392.81" y="281" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x8244c0..0x824540 -&gt; RAM 0x800a62e0..0x800a6360</title></rect>
+<rect x="392.81" y="281" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x82c480..0x82c500 -&gt; RAM 0x800a62e0..0x800a6360</title></rect>
+<rect x="392.81" y="281" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x8588c0..0x858940 -&gt; RAM 0x800a62e0..0x800a6360</title></rect>
+<rect x="392.81" y="281" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x2caed0..0x2caf40 -&gt; RAM 0x800a62e0..0x800a6350</title></rect>
+<rect x="392.81" y="281" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x3a4460..0x3a44d0 -&gt; RAM 0x800a62e0..0x800a6350</title></rect>
+<rect x="392.81" y="281" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x41a290..0x41a300 -&gt; RAM 0x800a62e0..0x800a6350</title></rect>
+<text x="24" y="318" class="">800B2400: 1 bloco(s)</text>
+<rect x="403.18" y="305" width="54.80" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x2427a0..0x2823e0 -&gt; RAM 0x800b2400..0x800f2040</title></rect>
+<text x="24" y="342" class="">80120000: 1 bloco(s)</text>
+<rect x="497.50" y="329" width="72.66" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x4810f0..0x4d59b0 -&gt; RAM 0x80120000..0x801748c0</title></rect>
+<text x="24" y="366" class="">80160200: 1 bloco(s)</text>
+<rect x="552.61" y="353" width="22.23" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x92df0..0xacbe0 -&gt; RAM 0x80160200..0x80179ff0</title></rect>
+<text x="24" y="390" class="">801D18C0: 13 bloco(s)</text>
+<rect x="650.08" y="377" width="22.37" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x704110..0x71e1a0 -&gt; RAM 0x801d18c0..0x801eb950</title></rect>
+<rect x="650.08" y="377" width="12.38" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x858940..0x866fb0 -&gt; RAM 0x801d18c0..0x801dff30</title></rect>
+<rect x="650.08" y="377" width="5.59" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x7e2640..0x7e8e50 -&gt; RAM 0x801d18c0..0x801d80d0</title></rect>
+<rect x="650.08" y="377" width="4.37" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x803cd0..0x808e30 -&gt; RAM 0x801d18c0..0x801d6a20</title></rect>
+<rect x="650.08" y="377" width="3.18" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x81d970..0x821490 -&gt; RAM 0x801d18c0..0x801d53e0</title></rect>
+<rect x="650.08" y="377" width="2.27" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x2823e0..0x284e10 -&gt; RAM 0x801d18c0..0x801d42f0</title></rect>
+<rect x="650.08" y="377" width="1.72" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x6e1570..0x6e3560 -&gt; RAM 0x801d18c0..0x801d38b0</title></rect>
+<rect x="650.08" y="377" width="1.59" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x8008a0..0x802650 -&gt; RAM 0x801d18c0..0x801d3670</title></rect>
+<rect x="650.08" y="377" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x8026d0..0x803a80 -&gt; RAM 0x801d18c0..0x801d2c70</title></rect>
+<rect x="650.08" y="377" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x818af0..0x819cb0 -&gt; RAM 0x801d18c0..0x801d2a80</title></rect>
+<rect x="650.08" y="377" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x819ec0..0x81b020 -&gt; RAM 0x801d18c0..0x801d2a20</title></rect>
+<rect x="650.08" y="377" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x81b8b0..0x81c8e0 -&gt; RAM 0x801d18c0..0x801d28f0</title></rect>
+<rect x="650.08" y="377" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x824540..0x8254d0 -&gt; RAM 0x801d18c0..0x801d2850</title></rect>
+<text x="24" y="414" class="">801D4400: 7 bloco(s)</text>
+<rect x="652.40" y="401" width="71.76" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x3a44d0..0x3f7ce0 -&gt; RAM 0x801d4400..0x80227c10</title></rect>
+<rect x="652.40" y="401" width="58.00" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x2caf40..0x30e710 -&gt; RAM 0x801d4400..0x80217bd0</title></rect>
+<rect x="652.40" y="401" width="46.86" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x41a300..0x450b60 -&gt; RAM 0x801d4400..0x8020ac60</title></rect>
+<rect x="652.40" y="401" width="27.88" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x335f50..0x356650 -&gt; RAM 0x801d4400..0x801f4b00</title></rect>
+<rect x="652.40" y="401" width="15.27" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x82c500..0x83e150 -&gt; RAM 0x801d4400..0x801e6050</title></rect>
+<rect x="652.40" y="401" width="5.61" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x2ad670..0x2b3ef0 -&gt; RAM 0x801d4400..0x801dac80</title></rect>
+<rect x="652.40" y="401" width="1.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x80e8e0..0x810290 -&gt; RAM 0x801d4400..0x801d5db0</title></rect>
+<text x="24" y="438" class="">8022C070: 1 bloco(s)</text>
+<rect x="727.84" y="425" width="73.80" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x4d59b0..0x52b7a0 -&gt; RAM 0x8022c070..0x80281e60</title></rect>
+<text x="24" y="462" class="">8024C000: 1 bloco(s)</text>
+<rect x="755.31" y="449" width="112.22" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0xacbe0..0x12f520 -&gt; RAM 0x8024c000..0x802ce940</title></rect>
+<text x="24" y="486" class="">8034B000: 12 bloco(s)</text>
+<rect x="974.45" y="473" width="97.92" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x62f410..0x6a1320 -&gt; RAM 0x8034b000..0x803bcf10</title></rect>
+<rect x="974.45" y="473" width="84.32" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x12f520..0x191710 -&gt; RAM 0x8034b000..0x803ad1f0</title></rect>
+<rect x="974.45" y="473" width="82.47" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x5cf4a0..0x62f410 -&gt; RAM 0x8034b000..0x803aaf70</title></rect>
+<rect x="974.45" y="473" width="55.10" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x6a1320..0x6e14f0 -&gt; RAM 0x8034b000..0x8038b1d0</title></rect>
+<rect x="974.45" y="473" width="34.46" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x792960..0x7baae0 -&gt; RAM 0x8034b000..0x80373180</title></rect>
+<rect x="974.45" y="473" width="27.62" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x1a0270..0x1c04c0 -&gt; RAM 0x8034b000..0x8036b250</title></rect>
+<rect x="974.45" y="473" width="20.92" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x22a210..0x2427a0 -&gt; RAM 0x8034b000..0x80363590</title></rect>
+<rect x="974.45" y="473" width="14.29" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x7d1bb0..0x7e25c0 -&gt; RAM 0x8034b000..0x8035ba10</title></rect>
+<rect x="974.45" y="473" width="11.50" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x6f6a80..0x704090 -&gt; RAM 0x8034b000..0x80358610</title></rect>
+<rect x="974.45" y="473" width="7.30" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x7f8020..0x800820 -&gt; RAM 0x8034b000..0x80353800</title></rect>
+<rect x="974.45" y="473" width="7.28" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x197af0..0x1a0270 -&gt; RAM 0x8034b000..0x80353780</title></rect>
+<rect x="974.45" y="473" width="5.36" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x191710..0x197af0 -&gt; RAM 0x8034b000..0x803513e0</title></rect>
+<text x="24" y="510" class="">803CB000: 1 bloco(s)</text>
+<rect x="1084.45" y="497" width="16.23" height="15" rx="2" fill="#d97706" fill-opacity="0.65"><title>ROM 0x83e150..0x850f80 -&gt; RAM 0x803cb000..0x803dde30</title></rect>
+<text x="24" y="556" class="small">Fonte: reports/evidence/ozumo1.json. Candidatos estáticos; uso efetivo depende de trace.</text>
+</svg>

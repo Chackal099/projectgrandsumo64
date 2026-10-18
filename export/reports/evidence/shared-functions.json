@@ -1,0 +1,82 @@
+[
+  {
+    "method": "sha256",
+    "digest": "349227b84b51cb246abaf9de4bf56eba78054d85575e1bfb09acfdb8d1bc0c28",
+    "size": 192,
+    "unique_pair": true,
+    "ozumo1": [
+      {
+        "region": "resident",
+        "rom": 115360,
+        "vram": 2147595936
+      }
+    ],
+    "ozumo2": [
+      {
+        "region": "resident",
+        "rom": 181616,
+        "vram": 2148186480
+      }
+    ]
+  },
+  {
+    "method": "sha256",
+    "digest": "60e870785652f4c5376888fa708add8104458aed09503a8f38eb0925c8dbe54a",
+    "size": 96,
+    "unique_pair": true,
+    "ozumo1": [
+      {
+        "region": "resident",
+        "rom": 107936,
+        "vram": 2147588512
+      }
+    ],
+    "ozumo2": [
+      {
+        "region": "resident",
+        "rom": 181920,
+        "vram": 2148186784
+      }
+    ]
+  },
+  {
+    "method": "normalized",
+    "digest": "349227b84b51cb246abaf9de4bf56eba78054d85575e1bfb09acfdb8d1bc0c28",
+    "size": 192,
+    "unique_pair": true,
+    "ozumo1": [
+      {
+        "region": "resident",
+        "rom": 115360,
+        "vram": 2147595936
+      }
+    ],
+    "ozumo2": [
+      {
+        "region": "resident",
+        "rom": 181616,
+        "vram": 2148186480
+      }
+    ]
+  },
+  {
+    "method": "normalized",
+    "digest": "60e870785652f4c5376888fa708add8104458aed09503a8f38eb0925c8dbe54a",
+    "size": 96,
+    "unique_pair": true,
+    "ozumo1": [
+      {
+        "region": "resident",
+        "rom": 107936,
+        "vram": 2147588512
+      }
+    ],
+    "ozumo2": [
+      {
+        "region": "resident",
+        "rom": 181920,
+        "vram": 2148186784
+      }
+    ]
+  }
+]

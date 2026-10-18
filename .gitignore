@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.cache/
+baseroms/
+generated/
+*.z64
+*.n64
+*.v64
+*.zip
+*.bin
+*.elf
+*.o

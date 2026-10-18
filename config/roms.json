@@ -1,0 +1,36 @@
+{
+  "ozumo1": {
+    "title": "64 Oozumou (Japan)",
+    "sha256": "661420aa5a7b5c0f86aad0dad813a0c876b99267d9d92fed0f4507e8e2a37240",
+    "sha1": "e77fe9f2c32870eb7acbcf6a13d26dd022bafe5d",
+    "size": 16777216,
+    "entry": 2147484672,
+    "cpu_text_end": 149280,
+    "resident_rom_end": 181456,
+    "bss_start": 2147662032,
+    "bss_size": 502288,
+    "initial_sp": 2147671240,
+    "startup": 2147484752,
+    "dma_function": 2147539456,
+    "dma_convention": "osPiStartDma",
+    "compiler_hint": "IDO",
+    "zip_sha256": "1199617e3919e7cbd554a8019e45282900ff15e1a2a2fc428b629332bf7066b6"
+  },
+  "ozumo2": {
+    "title": "64 Oozumou 2 (Japan)",
+    "sha256": "3ff701b4735c84b17f8d80a996db59801caa766ee7da4d3e5a3b88eb34d99a17",
+    "sha1": "6d524e0d0dd610dfb0c3bccaa88ef1e7aeceab98",
+    "size": 16777216,
+    "entry": 2148008960,
+    "cpu_text_end": 214048,
+    "resident_rom_end": 307024,
+    "bss_start": 2148311888,
+    "bss_size": 372192,
+    "initial_sp": 2148528768,
+    "startup": 2148086784,
+    "dma_function": 2148107840,
+    "dma_convention": "wrapper_a0_a1_a2",
+    "compiler_hint": "KMC",
+    "zip_sha256": "c98d37c849c4795f7c97f3aff9325ed671682d2ead97f2c5239ed2655f17753e"
+  }
+}

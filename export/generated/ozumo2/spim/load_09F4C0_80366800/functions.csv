@@ -1,0 +1,2 @@
+vrom,address,name,file,length,hash of top bits of words,functions called by this function,non-jal function calls,referenced functions
+0x09F4C0,0x80366800,func_80366800,,0x2F0,fccbbc9325685ade3e400c61e29f06a4,[func_800A542C;func_800A542C;func_800A542C;func_800A542C;func_800A542C;func_800A542C;func_800A542C;func_800A542C],[],[]

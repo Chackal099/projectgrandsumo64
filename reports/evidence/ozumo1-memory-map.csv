@@ -1,0 +1,68 @@
+kind,rom_start,rom_end,vram,vram_end,confidence
+header,0x00000000,0x00000040,,,confirmed header
+IPL3,0x00000040,0x00001000,,,boot cartridge bytes
+resident CPU text,0x00001000,0x00024720,0x80000400,0x80023B20,"high: entry, calls, RSP boundary"
+resident RSP + data,0x00024720,0x0002C4D0,0x80023B20,0x8002B8D0,mixed; no exact data/rodata split
+resident BSS,,,0x8002B8D0,0x800A62E0,confirmed boot zero loop
+DMA code candidate,0x0002C4D0,0x00092DF0,0x800A62E0,0x8010CC00,static constant call; execution not traced
+DMA data/unclassified,0x00092DF0,0x000ACBE0,0x80160200,0x80179FF0,static constant call; execution not traced
+DMA data/unclassified,0x000ACBE0,0x0012F520,0x8024C000,0x802CE940,static constant call; execution not traced
+DMA data/unclassified,0x0012F520,0x00191710,0x8034B000,0x803AD1F0,static constant call; execution not traced
+DMA data/unclassified,0x00191710,0x00197AF0,0x8034B000,0x803513E0,static constant call; execution not traced
+DMA data/unclassified,0x00197AF0,0x001A0270,0x8034B000,0x80353780,static constant call; execution not traced
+DMA data/unclassified,0x001A0270,0x001C04C0,0x8034B000,0x8036B250,static constant call; execution not traced
+DMA data/unclassified,0x0022A210,0x002427A0,0x8034B000,0x80363590,static constant call; execution not traced
+DMA code candidate,0x002427A0,0x002823E0,0x800B2400,0x800F2040,static constant call; execution not traced
+DMA code candidate,0x002823E0,0x00284E10,0x801D18C0,0x801D42F0,static constant call; execution not traced
+DMA code candidate,0x002AD5F0,0x002AD670,0x800A62E0,0x800A6360,static constant call; execution not traced
+DMA code candidate,0x002AD670,0x002B3EF0,0x801D4400,0x801DAC80,static constant call; execution not traced
+DMA code candidate,0x002CAED0,0x002CAF40,0x800A62E0,0x800A6350,static constant call; execution not traced
+DMA code candidate,0x002CAF40,0x0030E710,0x801D4400,0x80217BD0,static constant call; execution not traced
+DMA code candidate,0x00335ED0,0x00335F50,0x800A62E0,0x800A6360,static constant call; execution not traced
+DMA code candidate,0x00335F50,0x00356650,0x801D4400,0x801F4B00,static constant call; execution not traced
+DMA code candidate,0x003A4460,0x003A44D0,0x800A62E0,0x800A6350,static constant call; execution not traced
+DMA code candidate,0x003A44D0,0x003F7CE0,0x801D4400,0x80227C10,static constant call; execution not traced
+DMA code candidate,0x0041A290,0x0041A300,0x800A62E0,0x800A6350,static constant call; execution not traced
+DMA code candidate,0x0041A300,0x00450B60,0x801D4400,0x8020AC60,static constant call; execution not traced
+DMA code candidate,0x00481060,0x004810F0,0x800A62E0,0x800A6370,static constant call; execution not traced
+DMA code candidate,0x004810F0,0x004D59B0,0x80120000,0x801748C0,static constant call; execution not traced
+DMA code candidate,0x004D59B0,0x0052B7A0,0x8022C070,0x80281E60,static constant call; execution not traced
+DMA data/unclassified,0x005CF4A0,0x0062F410,0x8034B000,0x803AAF70,static constant call; execution not traced
+DMA data/unclassified,0x0062F410,0x006A1320,0x8034B000,0x803BCF10,static constant call; execution not traced
+DMA data/unclassified,0x006A1320,0x006E14F0,0x8034B000,0x8038B1D0,static constant call; execution not traced
+DMA code candidate,0x006E14F0,0x006E1570,0x800A62E0,0x800A6360,static constant call; execution not traced
+DMA code candidate,0x006E1570,0x006E3560,0x801D18C0,0x801D38B0,static constant call; execution not traced
+DMA data/unclassified,0x006F6A80,0x00704090,0x8034B000,0x80358610,static constant call; execution not traced
+DMA code candidate,0x00704090,0x00704110,0x800A62E0,0x800A6360,static constant call; execution not traced
+DMA code candidate,0x00704110,0x0071E1A0,0x801D18C0,0x801EB950,static constant call; execution not traced
+DMA data/unclassified,0x00792960,0x007BAAE0,0x8034B000,0x80373180,static constant call; execution not traced
+DMA code candidate,0x007BAAE0,0x007C7650,0x800A62E0,0x800B2E50,static constant call; execution not traced
+DMA code candidate,0x007C7650,0x007D1BB0,0x800A62E0,0x800B0840,static constant call; execution not traced
+DMA data/unclassified,0x007D1BB0,0x007E25C0,0x8034B000,0x8035BA10,static constant call; execution not traced
+DMA code candidate,0x007E25C0,0x007E2640,0x800A62E0,0x800A6360,static constant call; execution not traced
+DMA code candidate,0x007E2640,0x007E8E50,0x801D18C0,0x801D80D0,static constant call; execution not traced
+DMA data/unclassified,0x007F8020,0x00800820,0x8034B000,0x80353800,static constant call; execution not traced
+DMA code candidate,0x00800820,0x008008A0,0x800A62E0,0x800A6360,static constant call; execution not traced
+DMA code candidate,0x008008A0,0x00802650,0x801D18C0,0x801D3670,static constant call; execution not traced
+DMA code candidate,0x00802650,0x008026D0,0x800A62E0,0x800A6360,static constant call; execution not traced
+DMA code candidate,0x008026D0,0x00803A80,0x801D18C0,0x801D2C70,static constant call; execution not traced
+DMA code candidate,0x00803C50,0x00803CD0,0x800A62E0,0x800A6360,static constant call; execution not traced
+DMA code candidate,0x00803CD0,0x00808E30,0x801D18C0,0x801D6A20,static constant call; execution not traced
+DMA code candidate,0x0080E860,0x0080E8E0,0x800A62E0,0x800A6360,static constant call; execution not traced
+DMA code candidate,0x0080E8E0,0x00810290,0x801D4400,0x801D5DB0,static constant call; execution not traced
+DMA code candidate,0x00818A70,0x00818AF0,0x800A62E0,0x800A6360,static constant call; execution not traced
+DMA code candidate,0x00818AF0,0x00819CB0,0x801D18C0,0x801D2A80,static constant call; execution not traced
+DMA code candidate,0x00819E40,0x00819EC0,0x800A62E0,0x800A6360,static constant call; execution not traced
+DMA code candidate,0x00819EC0,0x0081B020,0x801D18C0,0x801D2A20,static constant call; execution not traced
+DMA code candidate,0x0081B830,0x0081B8B0,0x800A62E0,0x800A6360,static constant call; execution not traced
+DMA code candidate,0x0081B8B0,0x0081C8E0,0x801D18C0,0x801D28F0,static constant call; execution not traced
+DMA code candidate,0x0081D8F0,0x0081D970,0x800A62E0,0x800A6360,static constant call; execution not traced
+DMA code candidate,0x0081D970,0x00821490,0x801D18C0,0x801D53E0,static constant call; execution not traced
+DMA code candidate,0x008244C0,0x00824540,0x800A62E0,0x800A6360,static constant call; execution not traced
+DMA code candidate,0x00824540,0x008254D0,0x801D18C0,0x801D2850,static constant call; execution not traced
+DMA code candidate,0x008254D0,0x0082C480,0x800A62E0,0x800AD290,static constant call; execution not traced
+DMA code candidate,0x0082C480,0x0082C500,0x800A62E0,0x800A6360,static constant call; execution not traced
+DMA code candidate,0x0082C500,0x0083E150,0x801D4400,0x801E6050,static constant call; execution not traced
+DMA code candidate,0x0083E150,0x00850F80,0x803CB000,0x803DDE30,static constant call; execution not traced
+DMA code candidate,0x008588C0,0x00858940,0x800A62E0,0x800A6360,static constant call; execution not traced
+DMA code candidate,0x00858940,0x00866FB0,0x801D18C0,0x801DFF30,static constant call; execution not traced

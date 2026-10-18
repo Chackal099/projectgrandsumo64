@@ -1,0 +1,37 @@
+{
+  "tools": {
+    "splat64": "0.50.1",
+    "spimdisasm": "1.42.4",
+    "rabbitizer": "1.16.2"
+  },
+  "ipl3_identical": true,
+  "commands_completed": 118,
+  "matches": {
+    "sha256": 2,
+    "normalized": 2
+  },
+  "unique_pairs": {
+    "sha256": 2,
+    "normalized": 2
+  },
+  "games": {
+    "ozumo1": {
+      "functions": 2925,
+      "regions": 49,
+      "dma_mappings": 62,
+      "graphics_candidates": 544,
+      "ucode_signatures": 2,
+      "indirect_calls": 54,
+      "indirect_jumps": 365
+    },
+    "ozumo2": {
+      "functions": 2378,
+      "regions": 67,
+      "dma_mappings": 140,
+      "graphics_candidates": 1137,
+      "ucode_signatures": 9,
+      "indirect_calls": 57,
+      "indirect_jumps": 151
+    }
+  }
+}
