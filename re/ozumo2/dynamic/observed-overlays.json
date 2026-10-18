@@ -1,0 +1,21 @@
+{
+  "schema_version": 2,
+  "state": "not_captured",
+  "real_sessions": [],
+  "observed_overlays": [],
+  "static_dma_candidates": 140,
+  "static_cpu_regions": 67,
+  "static_evidence_sha256": "eace18b9bc5142ac576be9993653d55d8b68b395b15944ca065c0ce89d2c99e9",
+  "rom_sha256": "3ff701b4735c84b17f8d80a996db59801caa766ee7da4d3e5a3b88eb34d99a17",
+  "note": "No emulator was run in this cloud task. This inventory is not a dynamic trace.",
+  "hypotheses_pending": [
+    "Scene identities for 0x58EF0 and 0x3D15E0 mapped at 0x8012C860",
+    "A/B/A lifecycle and validity of residual tail bytes",
+    "Executable prefixes, BSS and relocations for each observed generation",
+    "Loads used only as data; CPU non-observation alone is insufficient",
+    "Thread/queue identity and hardware PI completion timing",
+    "OSTask creation functions and actually selected microcodes",
+    "TLB aliases, RSP-initiated writes and exact VI timing",
+    "Cold boot -> menus -> match -> menu repeatability with fixed saves and inputs"
+  ]
+}

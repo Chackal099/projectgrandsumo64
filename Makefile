@@ -1,4 +1,4 @@
-.PHONY: setup test analyze verify setup-native upstream smoke-recompiler check-publish
+.PHONY: setup test analyze verify setup-native upstream smoke-recompiler check-publish test-dynamic
 
 setup:
 	bash tools/setup.sh
@@ -27,3 +27,7 @@ smoke-recompiler:
 
 check-publish:
 	.venv/bin/python tools/check_publishable.py
+
+# Synthetic instrumentation checks only; never launches a game or produces a real trace.
+test-dynamic:
+	.venv/bin/python -m unittest discover -s tests -p 'test_dynamic.py' -v

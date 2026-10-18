@@ -10,6 +10,7 @@ BINARY_SUFFIXES = {
     '.z64', '.n64', '.v64', '.rom', '.bin', '.elf', '.o', '.obj', '.a', '.lib',
     '.dll', '.exe', '.so', '.dylib', '.pdb', '.zip', '.7z', '.rdram', '.sav',
     '.srm', '.eep', '.fla', '.png', '.jpg', '.jpeg', '.wav', '.ogg', '.mp3',
+    '.sra', '.mpk', '.dmp', '.pj', '.m64', '.state', '.jsonl',
 }
 MAGICS = (bytes.fromhex('80371240'), bytes.fromhex('37804012'), bytes.fromhex('40123780'),
           b'\x7fELF', b'PK\x03\x04', b'MZ')

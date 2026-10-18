@@ -5,6 +5,7 @@ As evidências comparativas anteriores permanecem em `reports/ozumo2.md`, `repor
 - [Plano de validação dinâmica de overlays](overlay-validation.md)
 - [Formato dos registros de captura](trace-format.md)
 - [Template de sessão ainda não capturada](session.template.json)
+- [Instrumentação implementada, contrato v2 e captura no Windows](dynamic/README.md) — ainda sem observações reais.
 - `symbols/`: símbolos revisados, com fonte e confiança.
 - `recomp/`: preparação posterior dos metadados de uma unidade pequena de recompilação.
 

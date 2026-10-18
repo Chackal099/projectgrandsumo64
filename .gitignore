@@ -34,3 +34,11 @@ CMakeFiles/
 *.srm
 *.eep
 *.fla
+*.sra
+*.mpk
+*.dmp
+*.pj
+*.m64
+*.state
+# Raw emulator events stay local, even if copied outside local/ by mistake.
+*.jsonl

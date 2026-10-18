@@ -1,0 +1,79 @@
+{
+  "consultation_date": "2026-10-18",
+  "sources": [
+    {
+      "repository": "https://github.com/project64/project64",
+      "revision": "24376e868350792a181d2121fec20d37354559d6",
+      "emulator_executed": false,
+      "files": [
+        {
+          "path": "Source/Project64/UserInterface/Debugger/ScriptAPI/ScriptAPI_events.cpp",
+          "sha256": "ba2e0dd4e6a0b7da8783b2d32ee8919f95f697291d04e7489eef4d8cee260b18",
+          "url": "https://github.com/project64/project64/blob/24376e868350792a181d2121fec20d37354559d6/Source/Project64/UserInterface/Debugger/ScriptAPI/ScriptAPI_events.cpp"
+        },
+        {
+          "path": "Source/Project64/UserInterface/Debugger/ScriptAPI/ScriptAPI_mem.cpp",
+          "sha256": "2c913a72686c3ec308582664eb3155dfa7c300ceeec4a4880b596625d1480954",
+          "url": "https://github.com/project64/project64/blob/24376e868350792a181d2121fec20d37354559d6/Source/Project64/UserInterface/Debugger/ScriptAPI/ScriptAPI_mem.cpp"
+        },
+        {
+          "path": "Source/Project64/UserInterface/Debugger/ScriptAPI/ScriptAPI_fs.cpp",
+          "sha256": "63738b1c8e8d8eec5fe6a8d6a93b9acbeb9378f608d94799d90bf5faf8f70f93",
+          "url": "https://github.com/project64/project64/blob/24376e868350792a181d2121fec20d37354559d6/Source/Project64/UserInterface/Debugger/ScriptAPI/ScriptAPI_fs.cpp"
+        },
+        {
+          "path": "Source/Project64/UserInterface/Debugger/Debugger.cpp",
+          "sha256": "adb9bf82c01df9ba49b7f2fedb75b0997c87ac7877fd83de6a6ddddebdb84f73",
+          "url": "https://github.com/project64/project64/blob/24376e868350792a181d2121fec20d37354559d6/Source/Project64/UserInterface/Debugger/Debugger.cpp"
+        },
+        {
+          "path": "Source/Project64-core/N64System/MemoryHandler/PeripheralInterfaceHandler.cpp",
+          "sha256": "fae979aa18a976d7ee2710617610f4ba0a9413f4de2c3e454ec5b96644d57f0f",
+          "url": "https://github.com/project64/project64/blob/24376e868350792a181d2121fec20d37354559d6/Source/Project64-core/N64System/MemoryHandler/PeripheralInterfaceHandler.cpp"
+        },
+        {
+          "path": "Source/Project64-core/N64System/MemoryHandler/PifRamHandler.cpp",
+          "sha256": "1f7c5b38cfc69cc9ac4c5465f9d6825f7737cf04bd87db710839fef441d00231",
+          "url": "https://github.com/project64/project64/blob/24376e868350792a181d2121fec20d37354559d6/Source/Project64-core/N64System/MemoryHandler/PifRamHandler.cpp"
+        },
+        {
+          "path": "Source/3rdParty/duktape/duktape.cpp",
+          "sha256": "60515235ba7e8786a98a384280d6eb19dffb3c013710ac306bd39007c85f9535",
+          "url": "https://github.com/project64/project64/blob/24376e868350792a181d2121fec20d37354559d6/Source/3rdParty/duktape/duktape.cpp"
+        },
+        {
+          "path": "Docs/BUILDING.md",
+          "sha256": "9486cc0744518e006943b4c514fc43f4cec0868e3bca30d0ce08ceac793b7711",
+          "url": "https://github.com/project64/project64/blob/24376e868350792a181d2121fec20d37354559d6/Docs/BUILDING.md"
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/mupen64plus/mupen64plus-core",
+      "revision": "ba95bab92a76744753bfe61470823a4937850ab0",
+      "emulator_executed": false,
+      "files": [
+        {
+          "path": "src/api/m64p_debugger.h",
+          "sha256": "7012464d0f3c46d96fc41dc04501d228563b8626c054cae8676056ce8a86fd47",
+          "url": "https://github.com/mupen64plus/mupen64plus-core/blob/ba95bab92a76744753bfe61470823a4937850ab0/src/api/m64p_debugger.h"
+        },
+        {
+          "path": "src/debugger/dbg_debugger.c",
+          "sha256": "eac210297e30a7f5c82c836a906db37d2939a98f9dc063ad22cf09dc168cb41f",
+          "url": "https://github.com/mupen64plus/mupen64plus-core/blob/ba95bab92a76744753bfe61470823a4937850ab0/src/debugger/dbg_debugger.c"
+        },
+        {
+          "path": "src/device/rcp/pi/pi_controller.c",
+          "sha256": "85de8e6db4fd253afed6a728d88bff83abecd0be837bdc8569c947f86cc27d63",
+          "url": "https://github.com/mupen64plus/mupen64plus-core/blob/ba95bab92a76744753bfe61470823a4937850ab0/src/device/rcp/pi/pi_controller.c"
+        },
+        {
+          "path": "projects/unix/Makefile",
+          "sha256": "adc2079d008bbc5296946e539c019e8494e3bcc544c2a28f7cac60464bcae403",
+          "url": "https://github.com/mupen64plus/mupen64plus-core/blob/ba95bab92a76744753bfe61470823a4937850ab0/projects/unix/Makefile"
+        }
+      ]
+    }
+  ]
+}

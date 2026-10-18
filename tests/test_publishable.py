@@ -46,6 +46,11 @@ class PublicationTests(unittest.TestCase):
         self.stage('local/traces/ozumo2/events.jsonl', b'{}\n')
         self.assertEqual(len(audit(self.root)), 2)
 
+    def test_copied_raw_trace_and_save_outside_local_are_rejected(self):
+        self.stage('reports/copied-events.jsonl', b'{"source_kind":"synthetic_test"}\n')
+        self.stage('reports/copied-controller.mpk', b'synthetic fixture')
+        self.assertEqual(len(audit(self.root)), 2)
+
 
 if __name__ == '__main__':
     unittest.main()

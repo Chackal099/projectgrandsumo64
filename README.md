@@ -68,3 +68,5 @@ make check-publish   # Audita os blobs preparados no índice Git.
 ```
 
 Não usar `make analyze` como pré-requisito da preparação nativa. Os scripts/configurações anteriores mantêm seus caminhos. Capturas e assets locais vão para `local/`, ferramentas e builds para `.tools/`, e futuro código gerado para `generated/ozumo2/recomp/`; esses diretórios não são publicados.
+
+A [instrumentação dinâmica do segundo jogo](re/ozumo2/dynamic/README.md) agora inclui um adapter Project64, validação de traces e [instruções Windows](re/ozumo2/dynamic/windows.md). `make test-dynamic` executa somente testes sintéticos. Ainda não há captura real nem overlay dinamicamente confirmado; a análise comparativa acima permanece preservada.
