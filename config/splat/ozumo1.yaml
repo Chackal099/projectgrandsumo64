@@ -1,0 +1,45 @@
+# CPU/RSP boundary inspected manually; data includes RSP code, not only CPU data.
+name: 64 Oozumou (Japan)
+sha1: e77fe9f2c32870eb7acbcf6a13d26dd022bafe5d
+options:
+  basename: ozumo1
+  base_path: ../..
+  platform: n64
+  compiler: IDO
+  target_path: baseroms/ozumo1.z64
+  asm_path: generated/ozumo1/splat/asm
+  src_path: generated/ozumo1/splat/src
+  asset_path: generated/ozumo1/splat/assets
+  build_path: generated/ozumo1/splat/build
+  generated_asm_macros_directory: generated/ozumo1/splat/include
+  ld_script_path: generated/ozumo1/splat/ozumo1.ld
+  cache_path: generated/ozumo1/splat/cache
+  symbol_addrs_path: []
+  reloc_addrs_path: []
+  undefined_funcs_auto_path: generated/ozumo1/splat/undefined_funcs.txt
+  undefined_syms_auto_path: generated/ozumo1/splat/undefined_syms.txt
+  auto_link_sections: []
+  header_encoding: ASCII
+  find_file_boundaries: false
+segments:
+- name: header
+  type: header
+  start: 0x0
+- name: ipl3
+  type: bin
+  start: 0x40
+- name: resident
+  type: code
+  start: 0x1000
+  vram: 0x80000400
+  subsegments:
+  - - 0x1000
+    - asm
+    - resident
+  - - 0x24720
+    - data
+    - resident
+- name: unclassified
+  type: bin
+  start: 0x2c4d0
+- - 0x1000000

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "state": "not_captured",
+  "rom_sha256": "3ff701b4735c84b17f8d80a996db59801caa766ee7da4d3e5a3b88eb34d99a17",
+  "emulator": {
+    "name": null,
+    "revision": null,
+    "cpu_mode": null,
+    "plugins_or_backends": null
+  },
+  "rdram_bytes": null,
+  "initial_save_sha256": null,
+  "scenario": null,
+  "input_recording": "local/traces/ozumo2/RUN_ID/inputs.jsonl",
+  "events": "local/traces/ozumo2/RUN_ID/events.jsonl",
+  "notes": "Template: no emulation, observed events or overlay validation have been performed."
+}

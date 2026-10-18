@@ -11,3 +11,26 @@ generated/
 *.bin
 *.elf
 *.o
+
+# Native development: downloaded sources, builds and private capture material.
+/.tools/
+/build/
+/dist/
+/local/
+CMakeUserPresets.json
+CMakeCache.txt
+CMakeFiles/
+*.exe
+*.dll
+*.pdb
+*.obj
+*.lib
+*.a
+*.so
+*.dylib
+*.rom
+*.rdram
+*.sav
+*.srm
+*.eep
+*.fla

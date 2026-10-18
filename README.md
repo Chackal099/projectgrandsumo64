@@ -48,3 +48,23 @@ Na máquina preparada, as duas ROMs já foram importadas e a análise executada.
 Os mapas completos em CSV distinguem offsets ROM e endereços RAM. Todos os intervalos usam final exclusivo. Em N64, o termo VRAM aqui significa endereço virtual de execução, não uma área de vídeo dedicada. `0x80000000–0x80400000` cobre KSEG0 da RAM de 4 MiB; o alias não cacheado correspondente começa em `0xA0000000`. O mapa não comprova uso do Expansion Pak nem exige 8 MiB.
 
 Para refinar um limite, primeiro registre a evidência, ajuste a configuração do analisador e reexecute os checks. Não acrescente nomes adivinhados ao disassembler como fatos. Qualquer port, prova de conceito de recompilação, localização ou mudança de taxa de quadros é trabalho posterior.
+
+## Fase de preparação do port nativo de 64 Ōzumō 2
+
+A investigação acima permanece preservada. A fase atual prepara a estrutura, as ferramentas e o próximo experimento dinâmico; ainda não há executável do jogo.
+
+- [Estrutura modular e sequência de implementação](docs/development/structure.md)
+- [Ambiente Linux/Windows, versões fixadas e comandos de build](docs/development/environment.md)
+- [Plano concreto de validação dinâmica dos overlays](re/ozumo2/overlay-validation.md)
+- [Resultados da validação desta preparação](docs/development/validation.md)
+
+```sh
+make test
+make verify          # Confere os outputs existentes; não refaz a análise.
+make setup-native    # Ambiente separado para CMake/Ninja, com versões e hashes.
+make upstream        # Compila somente ferramentas e bibliotecas upstream.
+make smoke-recompiler # Usa somente MIPS sintético próprio, sem ROMs comerciais.
+make check-publish   # Audita os blobs preparados no índice Git.
+```
+
+Não usar `make analyze` como pré-requisito da preparação nativa. Os scripts/configurações anteriores mantêm seus caminhos. Capturas e assets locais vão para `local/`, ferramentas e builds para `.tools/`, e futuro código gerado para `generated/ozumo2/recomp/`; esses diretórios não são publicados.
